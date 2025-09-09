@@ -15,12 +15,16 @@ document.addEventListener('DOMContentLoaded', function(){
     })
 
 
-    const botaoDeAcessibilidade = document,getElementById('botao-acessibilidade');
-    const opcoesDeAcessibilidade = document,getElementById('opcoes-acessibilidade');
+    const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade');
+    const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade');
 
     botaoDeAcessibilidade.addEventListener('click', function(){
         botaoDeAcessibilidade.classlist.toggle('rotacao-botao');
         opcoesDeAcessibilidade.classlist.toggle('apresenta-lista');
     })
+
+    const alternaContraste = document.getElementById('alterna-contraste');
+
+
 
 })
