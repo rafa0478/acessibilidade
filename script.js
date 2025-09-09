@@ -19,14 +19,14 @@ document.addEventListener('DOMContentLoaded', function(){
     const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade');
 
     botaoDeAcessibilidade.addEventListener('click', function(){
-        botaoDeAcessibilidade.classlist.toggle('rotacao-botao');
-        opcoesDeAcessibilidade.classlist.toggle('apresenta-lista');
+        botaoDeAcessibilidade.classList.toggle('rotacao-botao');
+        opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
     })
 
-    const alternaContraste = document.getElementById('alterna-contraste');
+    const alternaContraste = document.getElementById('alterna-contrastre');
 
-alternaContraste.addEventListener('click',function(){
-    document.body.classList.toggle('alto-contraste');
-})
+    alternaContraste.addEventListener('click', function(){
+        document.body.classList.toggle('alto-contraste');
+    })
 
 })
